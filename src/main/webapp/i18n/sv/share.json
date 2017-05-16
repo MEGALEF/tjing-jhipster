@@ -1,0 +1,22 @@
+{
+    "tjingApp": {
+        "share" : {
+            "home": {
+                "title": "Shares",
+                "createLabel": "Skapa en ny Share",
+                "createOrEditLabel": "Skapa eller ändra en Share"
+            },
+            "created": "En ny Share är skapad med id {{ param }}",
+            "updated": "En Share är uppdaterad med id  {{ param }}",
+            "deleted": "En Share är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Share {{ id }}?"
+            },
+            "detail": {
+                "title": "Share"
+            },
+            "item": "Item",
+            "pool": "Pool"
+        }
+    }
+}

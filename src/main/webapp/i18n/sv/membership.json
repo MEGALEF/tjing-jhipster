@@ -1,0 +1,22 @@
+{
+    "tjingApp": {
+        "membership" : {
+            "home": {
+                "title": "Memberships",
+                "createLabel": "Skapa en ny Membership",
+                "createOrEditLabel": "Skapa eller ändra en Membership"
+            },
+            "created": "En ny Membership är skapad med id {{ param }}",
+            "updated": "En Membership är uppdaterad med id  {{ param }}",
+            "deleted": "En Membership är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Membership {{ id }}?"
+            },
+            "detail": {
+                "title": "Membership"
+            },
+            "user": "User",
+            "pool": "Pool"
+        }
+    }
+}

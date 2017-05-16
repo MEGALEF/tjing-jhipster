@@ -1,0 +1,24 @@
+{
+    "tjingApp": {
+        "pool" : {
+            "home": {
+                "title": "Pools",
+                "createLabel": "Create a new Pool",
+                "createOrEditLabel": "Create or edit a Pool"
+            },
+            "created": "A new Pool is created with identifier {{ param }}",
+            "updated": "A Pool is updated with identifier {{ param }}",
+            "deleted": "A Pool is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Pool {{ id }}?"
+            },
+            "detail": {
+                "title": "Pool"
+            },
+            "name": "Name",
+            "description": "Description",
+            "memberships": "Memberships",
+            "shares": "Shares"
+        }
+    }
+}

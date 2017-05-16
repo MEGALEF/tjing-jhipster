@@ -1,0 +1,27 @@
+
+<div>
+    <h2><span data-translate="tjingApp.membership.detail.title">Membership</span> {{vm.membership.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span data-translate="tjingApp.membership.user">User</span></dt>
+        <dd>
+            {{vm.membership.userId}}
+        </dd>
+        <dt><span data-translate="tjingApp.membership.pool">Pool</span></dt>
+        <dd>
+            <a ui-sref="pool-detail({id:vm.membership.poolId})">{{vm.membership.poolId}}</a>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            ui-sref="{{ vm.previousState }}"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span data-translate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button" ui-sref="membership-detail.edit({id:vm.membership.id})" class="btn btn-primary">
+        <span class="glyphicon glyphicon-pencil"></span>
+        <span class="hidden-sm-down" data-translate="entity.action.edit"> Edit</span>
+    </button>
+</div>

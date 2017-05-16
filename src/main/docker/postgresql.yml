@@ -1,0 +1,11 @@
+version: '2'
+services:
+    tjing-postgresql:
+        image: postgres:9.6.2
+        # volumes:
+        #     - ~/volumes/jhipster/tjing/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=tjing
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
